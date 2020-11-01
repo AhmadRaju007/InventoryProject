@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df8c68f6-3490-4911-871d-fe2fdc5099af" name="Default Changelist" comment="">
+    <list default="true" id="e6fff35a-ce09-44c0-bbfc-dc7b9955aa27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1jhfS2lRnfX1dHxiMHLBEuWlAIK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1jhfWLUY5FZCMQRhGAJRWdnlh0A" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,17 +24,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="df8c68f6-3490-4911-871d-fe2fdc5099af" name="Default Changelist" comment="" />
-      <created>1604261242668</created>
+      <changelist id="e6fff35a-ce09-44c0-bbfc-dc7b9955aa27" name="Default Changelist" comment="" />
+      <created>1604261274378</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604261242668</updated>
-      <workItem from="1604261243634" duration="72000" />
+      <updated>1604261274378</updated>
+      <workItem from="1604261275454" duration="585000" />
+      <workItem from="1604264702717" duration="311000" />
     </task>
     <servers />
   </component>
