@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-color: whitesmoke;
+    background-image: none;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom-color: #ffce00;
+    background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#696969 ;
+}
+
+li:last-child {
+    border-right: none;
+    padding-right: 20px;
+    float: right;
+}
+
+.active {
+    background-color: #ffce00;
+    color: black;
+}
+
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card{
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+.card-green{
+    background: #00b26f;
+    border-radius: 3px;
+    border-bottom: 3px solid #ffce00;
+    text-align: center;
+}
+
+.card-yellow{
+    background: #FA8072;
+    border-radius: 3px;
+    border-bottom: 3px solid #ffce00;
+    text-align: center;
+}
+
+.card-blue {
+    background: #00b5e9;
+    border-radius: 3px;
+    border-bottom: 3px solid #ffce00;
+    text-align: center;
+}
+
+.card-red {
+    background: #fa4251;
+    border-radius: 3px;
+    border-bottom: 3px solid #ffce00;
+    text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+span {
+    color: #282828;
+}
+
+.container_table {
+    width: 1024px;
+    padding: 2em;
+}
+
+.bold-blue {
+    font-weight: bold;
+    color: #0277BD;
+}
+
+h1, h2, h4, th{
+    color: #ffce00;
+}
+
+td{
+    color: #00b5e9 ;
+}
+
+.white-text{
+    color: floralwhite;
+}
+
+.pl-10{
+    padding-left: 10px;
+}
+
+.pr-10{
+    padding-right: 10px;
+}
+
+.pl-20{
+    padding-left: 20px;
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.p-20{
+    padding: 20px;
+}
+
+.modal-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    color: #d0d0d0;
+}
+
+.modal-header{
+    background-color: #282828;
+    color: #ffce00;
+    border-radius: 5px 5px 0px 0px ;
+}
+
+.modal-footer{
+    background-color: #282828;
+    color: #ffce00;
+    border-radius: 0px 0px 5px 5px ;
+}
+
+.user-input {
+    position: relative;
+}
+.login-input {
+    color: white;
+    border-radius: 2px;
+    width: 240px;
+    height: 44px;
+    border: none;
+    padding: 15px 20px;
+    background-color: rgba(65, 65, 65, 0.5);
+    margin-bottom: 24px;
+}
+
+.login-input:focus {
+    outline: none;
+    border-bottom: 2px solid #06ff8c;
+}
+
+.login-input:focus:invalid {
+    border-bottom: 2px solid #ffce00;
+}
+
+.form-input {
+    position: relative;
+}
+
+.form-input i {
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    padding: 9px 8px;
+    color: #848484;
+    transition: 0.3s;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+

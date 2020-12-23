@@ -1,0 +1,9 @@
+body{
+    background-color: #f8f9d2;
+    background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 100%);
+}
+
+.center_align{
+    text-align: center;
+    font-size: 50px;
+}
